@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Line item number:</strong>
+  <%= @line_item.line_item_number %>
+</p>
+
+<p>
+  <strong>Format:</strong>
+  <%= @line_item.format %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @line_item.start_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @line_item.end_date %>
+</p>
+
+<p>
+  <strong>Creative:</strong>
+  <%= @line_item.creative %>
+</p>
+
+<%= link_to 'Edit', edit_line_item_path(@line_item) %> |
+<%= link_to 'Back', line_items_path %>
